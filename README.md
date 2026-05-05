@@ -45,10 +45,10 @@ Editing the parent theme directly is a trap: the next parent update overwrites y
 
 ## Requirements
 
-| Item | Minimum |
-|------|---------|
-| WordPress | 6.7 |
-| PHP | 8.0 |
+| Item         | Minimum                                                                                                             |
+| ------------ | ------------------------------------------------------------------------------------------------------------------- |
+| WordPress    | 6.7                                                                                                                 |
+| PHP          | 8.0                                                                                                                 |
 | Parent theme | [NEOVANTAGE](https://wordpress.org/themes/neovantage/) (must be installed and present — does not need to be active) |
 
 ---
@@ -163,11 +163,11 @@ php -l functions.php
 
 This project follows [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html):
 
-| Bump | When | Example |
-|------|------|---------|
+| Bump                | When                                                                                   | Example           |
+| ------------------- | -------------------------------------------------------------------------------------- | ----------------- |
 | **MAJOR** (`X.0.0`) | Breaking change to a public hook, function name, or template path that sites depend on | `1.x.x` → `2.0.0` |
-| **MINOR** (`x.Y.0`) | New feature or template override added in a backwards-compatible way | `1.0.0` → `1.1.0` |
-| **PATCH** (`x.x.Z`) | Bug fix, CSS tweak, translation update, or documentation-only change | `1.0.0` → `1.0.1` |
+| **MINOR** (`x.Y.0`) | New feature or template override added in a backwards-compatible way                   | `1.0.0` → `1.1.0` |
+| **PATCH** (`x.x.Z`) | Bug fix, CSS tweak, translation update, or documentation-only change                   | `1.0.0` → `1.0.1` |
 
 **Git tag convention.** Tags are the plain version, no `v` prefix:
 
@@ -185,6 +185,7 @@ The version in `style.css` (`Version: 1.0.0`) is the source of truth — bump it
 ## Changelog
 
 ### 1.0.0 — 06 May, 2026
+
 - Initial release.
 - Single-handle stylesheet enqueue depending on the parent's `neovantage` handle (no double-load of the parent stylesheet).
 - `neovantage_child_` callback prefix throughout.
@@ -197,18 +198,12 @@ The version in `style.css` (`Version: 1.0.0`) is the source of truth — bump it
 
 ## Credits
 
-| Resource | License | Author |
-|----------|---------|--------|
+| Resource                                                              | License | Author      |
+| --------------------------------------------------------------------- | ------- | ----------- |
 | [NEOVANTAGE](https://wordpress.org/themes/neovantage/) (parent theme) | GPL v2+ | PixelsPress |
 
 ---
 
 ## License
 
-NEOVANTAGE Child — Copyright © 2026 [PixelsPress](https://pixelspress.com)
-
-Distributed under the [GNU General Public License v2 or later](https://www.gnu.org/licenses/gpl-2.0.html).
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU GPL as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+NEOVANTAGE Child project is licensed under the [GNU General Public License v2 or later](https://www.gnu.org/licenses/gpl-2.0.html).
